@@ -1,9 +1,9 @@
-const CACHE = 'steak-hub-v1'
+const CACHE = 'steak-hub-v2'
 
 self.addEventListener('install', (event) => {
   event.waitUntil(
     caches.open(CACHE).then((cache) =>
-      cache.addAll(['/', '/index.html', '/favicon.svg', '/manifest.webmanifest']),
+      cache.addAll(['/Steak-Hub/', '/Steak-Hub/index.html', '/Steak-Hub/favicon.svg', '/Steak-Hub/manifest.webmanifest']),
     ),
   )
   self.skipWaiting()

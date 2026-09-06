@@ -2,16 +2,17 @@
   "name": "Steak Hub",
   "short_name": "Steak Hub",
   "description": "Cook timer, community averages, and personal steak history.",
-  "start_url": "/",
+  "start_url": "/Steak-Hub/",
   "display": "standalone",
   "background_color": "#0c0a09",
   "theme_color": "#0c0a09",
   "icons": [
     {
-      "src": "/favicon.svg",
+      "src": "/Steak-Hub/favicon.svg",
       "sizes": "any",
       "type": "image/svg+xml",
       "purpose": "any"
     }
-  ]
+  ],
+  "scope": "/Steak-Hub/"
 }
